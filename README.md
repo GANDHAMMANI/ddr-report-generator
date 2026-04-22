@@ -14,6 +14,8 @@ Upload 2 PDFs → AI processes everything → Download DDR in DOCX + PDF + HTML
 
 ## Pipeline Architecture
 
+![AI-Powered DDR Pipeline Architecture](DDR.png)
+
 ```
 Stage 1 → PDF Ingestion       (OpenDataLoader v2.0 — #1 benchmark)
 Stage 2 → AI Extraction       (ChromaDB RAG + Groq Llama 4 Scout)
@@ -196,4 +198,4 @@ ddr-report-generator/
 
 ## Built By
 
-Gandham Mani Saketh
+Gandham Mani Saketh — InnodayVoyagers AI Hub
