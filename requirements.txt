@@ -1,0 +1,29 @@
+# Web Framework
+fastapi
+uvicorn[standard]
+python-multipart
+
+# PDF Ingestion
+opendataloader-pdf
+pymupdf
+
+# LLM
+groq
+
+# Export
+python-docx
+weasyprint
+jinja2
+
+# Validation
+pydantic
+pydantic-settings
+
+# Utilities
+python-dotenv
+aiofiles
+httpx
+pillow
+
+# Logging
+loguru
